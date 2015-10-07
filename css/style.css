@@ -1,0 +1,151 @@
+
+/*********************************
+    HEADER
+**********************************/
+
+
+#head {
+    text-align: center;
+    margin: 0;
+}
+
+#prof-pic {
+    width: 300px;
+    margin: 0;
+    border: 1.8px solid #eee;
+    border-radius: 100%;
+    box-shadow: 8px 8px 11px #ddd;
+}
+
+#name {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 3px 3px 3px #ccc;
+}
+
+#tagline {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #aaa;
+}
+
+
+/*********************************
+    MENU
+**********************************/
+
+#menu {
+    margin: 0 auto;
+    text-align: center;
+    border-color: red;
+} 
+
+#hidden-menu {
+    background-image: url(../images/blkbg.png);
+    height: 400px;
+    margin: 0;
+    display: none;
+}
+
+/*********************************
+    ICONS
+**********************************/
+
+#menu i.open {
+    color: black;
+    margin: 0;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 5px;
+    /*display: none;*/
+} 
+
+#menu i.close {
+    color: black;
+    margin: 0;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 5px;
+    /*display: none;*/
+}
+
+#hidden-menu i.img,
+#hidden-menu i.network,
+#hidden-menu i.cap {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 150px;
+    float: left;
+    padding: 30px 150px;
+}
+
+#hidden-menu i.network {
+    padding: 0 70px;
+}
+
+#hidden-menu i.cap {
+    padding-right: 60px;
+}
+
+/*********************************
+    TEXT
+**********************************/
+
+#hidden-menu p {
+    color: #fff;
+    text-align: justify;
+    width: 10em;
+    padding: 10px 170px;
+    font-family: 'Dosis', sans-serif;
+    clear: both;
+}
+
+
+
+/*********************************
+    MEDIA QUERIES
+**********************************/
+
+@media screen and (max-width: 480px) {
+    #hidden-menu i.img, 
+    #hidden-menu i.network,
+    #hidden-menu i.cap {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 70px;
+    /*float: left;*/
+    padding: 5px 42px 0 5px;
+    /*margin: 0 auto;*/
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    #hidden-menu i.img, 
+    #hidden-menu i.network,
+    #hidden-menu i.cap {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 70px;
+    /*float: left;*/
+    padding: 5px 42px 0 5px;
+    /*margin: 0 auto;*/
+    }
+
+}
+
+
+
+
+
+
+
+
+
